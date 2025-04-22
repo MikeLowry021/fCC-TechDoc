@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>HTML & CSS Basics</header>
+    <a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a>
+    <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+    <a class="nav-link" href="#HTML_Structure">HTML Structure</a>
+    <a class="nav-link" href="#CSS_Styling_Techniques">CSS Styling Techniques</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction_to_HTML">
+      <header>Introduction to HTML</header>
+      <p>HTML (HyperText Markup Language) is the foundation of web development, providing the structure for content on the internet.</p>
+      <p>It uses tags to define elements like headings, paragraphs, and links.</p>
+      <code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </code>
+      <ul>
+        <li>HTML documents start with a &lt;!DOCTYPE html&gt; declaration.</li>
+        <li>The &lt;html&gt; tag is the root element.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="CSS_Fundamentals">
+      <header>CSS Fundamentals</header>
+      <p>CSS (Cascading Style Sheets) controls the visual presentation of HTML elements.</p>
+      <p>It allows you to style colors, fonts, layouts, and more.</p>
+      <code>
+selector {
+  property: value;
+}
+      </code>
+      <ul>
+        <li>CSS rules consist of selectors and declarations.</li>
+        <li>Declarations are made up of properties and values.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="HTML_Structure">
+      <header>HTML Structure</header>
+      <p>HTML documents are organized into a tree-like structure called the DOM (Document Object Model).</p>
+      <p>Common elements include &lt;div&gt;, &lt;section&gt;, and &lt;article&gt; for grouping content.</p>
+      <code>
+&lt;section&gt;
+  &lt;h2&gt;Section Title&lt;/h2&gt;
+  &lt;p&gt;Content here&lt;/p&gt;
+&lt;/section&gt;
+      </code>
+    </section>
+    <section class="main-section" id="CSS_Styling_Techniques">
+      <header>CSS Styling Techniques</header>
+      <p>CSS can be applied inline, internally, or externally via a stylesheet.</p>
+      <p>External stylesheets are preferred for maintainability.</p>
+      <code>
+&lt;link rel="stylesheet" href="styles.css"&gt;
+      </code>
+      <p>You can target elements using classes, IDs, or tag names.</p>
+      <code>
+.class-name {
+  color: blue;
+}
+#id-name {
+  font-size: 16px;
+}
+      </code>
+    </section>
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures websites adapt to different screen sizes.</p>
+      <p>Media queries and flexible units like percentages or rem/em are key.</p>
+      <ul>
+        <li>Use relative units for scalability.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
